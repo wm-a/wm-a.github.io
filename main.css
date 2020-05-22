@@ -1,0 +1,70 @@
+/* Sass Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,200,500&display=swap');
+
+
+h1.top-menu-header {
+	font-weight: 900;
+	color: snow;
+	transition: .23s;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 26px;
+	margin:8px;
+	text-align: center;
+	
+}
+h1.top-menu-header:hover {
+	color: white;
+}
+
+.top-menu-header-container {
+	width: 400px;
+	height:60px;
+	justify-content: center;
+	align-content: center;
+	margin: 0;
+}
+
+.top-menu {
+	width: 100%;
+	height: 52px;
+	margin: 0;
+	position: fixed;
+	background-color: #262626;
+}
+
+.section-header-xlarge {
+	color: snow;
+	font-size: 100px;
+	font-family: 'Roboto', sans-serif;
+	width:100vw;
+	text-align: center;
+	margin: 0;
+	padding-top: 160px;
+	animation: fadein 3s;
+}
+
+p{
+	font-family: 'Roboto';
+	font-weight: 200;
+	color: aliceblue;
+	text-align: center;
+	animation: fadein 5s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.section{
+	width: 100%;
+	height:33vh;
+	
+}
+
+body {
+	margin: 0;
+	width: 100vw;
+	background-color: #404147;
+}

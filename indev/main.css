@@ -1,0 +1,131 @@
+/* Sass Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,200,500&display=swap');
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body {
+	margin: 0;
+	width: 100vw;
+	background-color: #404147;
+}
+p{
+	font-family: 'Roboto';
+	font-weight: 200;
+	color: aliceblue;
+	text-align: center;
+	animation: fadein 5s;
+}
+
+
+
+.top-menu-header-container {
+	width: 400px;
+	height:60px;
+	justify-content: center;
+	align-content: center;
+	margin: 0;
+}
+.top-menu {
+	width: 100%;
+	height: 52px;
+	margin: 0;
+	position: fixed;
+	background-color: #262626;
+}
+
+h1.top-menu-header {
+	font-weight: 900;
+	color: snow;
+	transition: .23s;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 26px;
+	margin:8px;
+	text-align: center;
+	
+}
+h1.top-menu-header:hover {
+	color: white;
+}
+
+.top-menu-section {
+	font-family: 'Roboto', sans-serif;
+	color: #C7C7CF;
+	transition: .3s;
+	font-size: 12pt;
+	position: fixed;
+	margin: 14px;
+	top:0;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+}
+.top-menu-section:hover {
+	color:white;
+	transform: scale(1.06); 
+	text-shadow: 3px 3px 5px black;
+}
+#videos {left: 2px;}
+#photos {left: 70px}
+#about {left:180px}
+
+img {
+	object-fit: cover;
+	height: inherit;
+}
+
+.section{
+	width: 100%;
+	height:33vh;
+	padding: 0;
+	margin-top: 50px;
+	align: center;
+	position: absolute;
+}
+.section-header {
+	font-size: 70px;
+	font-family: 'Roboto', sans-serif;
+	color: snow;
+	text-align: center;
+	position: inherit;
+	align-items: center;
+	margin-top:26vh;
+	text-shadow: 2px 2px 4px #444,
+		-2px -2px 4px #444;
+	transition: .3s;
+	margin-left: 20vw;
+	width: 60vw;
+}
+.section-header:hover {
+	text-shadow: 4px 4px 6px #444,
+		-4px -4px 6px #444;
+	transform: scale(1.03);
+	color: white;
+
+}
+
+.section-header-xlarge {
+	color: snow;
+	font-size: 100px;
+	font-family: 'Roboto', sans-serif;
+	width:100vw;
+	text-align: center;
+	margin: 0;
+	padding-top: 160px;
+	animation: fadein 3s;
+}
+.section-image-container{
+	height: 70vh;
+	width:100vw;
+}
+
+
+
+
+
+
